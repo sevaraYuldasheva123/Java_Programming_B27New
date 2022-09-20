@@ -1,7 +1,5 @@
 package day33_arraylist;
 
-import com.sun.tools.internal.ws.wsdl.document.soap.SOAPUse;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 

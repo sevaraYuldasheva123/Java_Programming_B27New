@@ -1,7 +1,5 @@
 package day09_if_statements;
 
-import com.sun.tools.javac.comp.Enter;
-
 import java.util.Scanner;
 
 public class PayDay {
