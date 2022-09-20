@@ -18,6 +18,9 @@ public class StackExample {
 
         System.out.println("What is the last thing: "+stack.peek());
 
+        stack.push("d");
+        System.out.println(stack);
+
 
     }
 }
