@@ -31,6 +31,13 @@ public class DataBaseExample {
         System.out.println(allPeople.get(0));
         System.out.println(allPeople.get(0).get("FIRST_NAME"));
 
+        //age should not be empty
+        for (Map<String, String> eachPerson : allPeople){
+            if (eachPerson.get("AGE") == null){
+                System.out.println("FAIL");
+            }
+        }
+
 
 
     }
